@@ -8,7 +8,7 @@ console.log(pair);
 
 console.log(bottle);
 //Object.seal(bottle);//seal korle delete kora jabe na, seal korle value change kora jai, new propaty add kora jai na.
-Object.freeze(bottle);
+Object.freeze(bottle);//freeze korle 
 delete bottle.isClear;
 bottle.price = 200;//seal korle value change kora jai, new propaty add kora jai na.
 console.log(bottle);
